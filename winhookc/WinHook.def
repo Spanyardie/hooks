@@ -1,0 +1,22 @@
+
+EXPORTS
+	InitDLL
+	CloseDownDLL
+	CallWndProc
+	CBTProc
+	DebugProc
+	ForeGroundIdleProc
+	GetMsgProc
+	JournalPlaybackProc
+	JournalRecordProc
+	KeyboardProc
+	MessageProc
+	MouseProc
+	ShellProc
+	SysMsgProc
+	RegisterNewMessageGlobal
+	SetUpHookGlobal
+	UnHookGlobal
+
+SEGMENTS
+	.SHARED READ WRITE SHARED
